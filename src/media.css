@@ -1,0 +1,379 @@
+@media(max-width:1130px) {
+
+    .nav_links {
+        justify-content: flex-end;
+        margin-right: 5%;
+    }
+   
+    .box img {
+        width: 4rem;
+    }
+
+    #lineH {
+        width: 4rem;
+    }
+}
+
+@media (min-width: 768px) and (max-width:1000px) {
+    .box {
+        height: 22rem;
+
+    }
+
+    .main {
+        height: 50vh;
+    }
+    input,textarea{
+        width: 19rem;
+    }
+}
+
+@media(max-width:912px) {
+    .image img {
+        max-height: 40vh;
+    }
+
+}
+@media(max-width:768px){
+    .image img{
+        position: absolute;
+        top: 25%;
+        max-height: 70vh;
+    }
+}
+@media(min-width:768px) and (max-width:911px){
+    
+    .boxS{
+        width: 60vw;
+        height: 22rem;
+    }
+    #box31{
+        width: 60vw;
+        height: 25rem;
+    }
+    #box4, #box5{
+        height: 29rem;
+    }
+}
+@media(max-width:820px){
+    .image img{
+        min-height: 50vh;
+    }
+    .nav_links{
+        /* height: 5rem;
+        background-color: black;
+        width: 5rem; */
+        display: none;
+       
+    }
+    .nav_link_mobile{
+        position: absolute;
+        top: 90%;
+        /* width: 100%; */
+        display: block;
+        left: 0;
+        right: 0;
+        background-color: darkslategrey;
+        color: white;
+        transition: all 0.5s ease-out;
+        text-align: center;
+        height: 20rem;
+        z-index: 1;
+    }
+    
+     li{
+        margin: 0.5rem ;
+        color: white;
+        padding:.6rem;
+        font-weight: bold;
+    }
+}
+@media(min-width:768px) and (max-width:820px){
+.navbar{
+    height: 4rem;
+    position: fixed;
+    top: 0;
+}
+.information{
+    height: 50rem;
+}
+.links{
+    top: 30%;
+}
+}
+@media(min-width:800px)and (max-width:821px){
+.information{
+    height: 60rem;
+}
+}
+@media(min-width:768px) and (max-width:912px){
+    .service_wrapper{
+        margin-bottom: 40rem;
+    }
+    .nav_links li{
+        font-size: 1.1rem;
+       
+    }
+
+}
+@media(max-width:1280px){
+    .image img{
+       position: absolute;
+       top: 17rem;
+       height: 50vh;
+    }
+}
+@media(max-width:1025px){
+    .image img{
+        height: 80vh;
+    }
+}
+@media(max-width:600px){
+    
+    .main{
+        overflow: hidden;
+        height: 30rem;
+    }
+    .head{
+        width: 20rem;
+        white-space: nowrap;
+        font-size: 1.5rem;
+    }
+    .boxes{
+        flex-direction: column;
+    }
+    .box{
+        width: 20rem;
+        margin: 1rem 0;
+    }
+    .Kindness{
+        overflow: hidden;
+    }
+    .section2_wrapper{
+        flex-direction: column;
+        margin: 1rem;
+        align-items: center;
+    }
+    .section2_wrapper img{
+        width: 20rem;
+        margin: 0;
+    }
+    .speech{
+        margin: 1rem;
+    }
+    .speech h2{
+        font-size: 1.3rem;
+        text-align: center;
+    }
+    .para{
+        margin: 1rem 1.5rem;
+    }
+    .information{
+        height: 55rem;
+    }
+    .links{
+        top: 70%;
+        
+    }
+    .rights{
+        margin-top: 8rem;
+    }
+    .sampark{
+        align-items: center;
+        flex-direction: column;
+    }
+    /* Services */
+    .service_wrapper{
+        display: flex;
+        flex-direction: column;
+        margin: 2rem 0;
+    }
+    .image img{
+        width: 95%;
+        height: 50%;
+        margin: 1.5rem 0;
+        display: none;
+       
+    }
+    .pip{
+        width: 100%;
+    }
+    .showing h2{
+        text-align: center;
+        margin-top: 2rem;
+    }
+    .over{
+        margin: 0.5rem 0;
+    }
+    .heading{
+        font-size: 2rem;
+        margin: 1rem 0;
+    }
+    .showing{
+        margin: 1rem;
+        padding: 0.5rem;
+        display: flex;
+        flex-direction: column;
+        margin: 1.5rem 0;
+        
+    }
+    /* Facility */
+    .facility_wrapper{
+        margin: 2rem 1rem;
+    }
+  
+    .description{
+        text-align: center;
+        display: flex;
+       align-items: center;
+    }
+    .machene{
+        flex-direction: column;
+        align-items: center;
+    }
+    .machene img{
+        width: 20rem;
+    }
+    .facility_dialysisi h2{
+        margin: 0 2rem;
+        font-size: 1.5rem;
+    }
+    .images img{
+        width: 20rem;
+    }
+    .form_container{
+        flex-direction: column;
+        align-items: center;
+        margin: 5rem 0;
+    }
+    .form_container img{
+        width: 20rem;
+        height: 15rem;
+    }
+    input,textarea{
+        width: 20rem;
+    }
+.find input{
+    width: 20rem;
+    margin: 1rem 0;
+}
+.hands{
+    font-size: 1rem;
+}
+.navbar{
+    height: 4.9rem;
+}
+
+}
+@media(max-width:300px){
+    .head{
+        font-size: 1.1rem;
+        width: 15rem;
+        text-align: center;
+    }
+    .box{
+        width: 15rem;
+        height: 22rem;
+    }
+    .section2_wrapper img{
+        width: 16rem;
+    }
+    .speech h2{
+        font-size: 1rem;
+        text-decoration: underline;
+    }
+    .para{
+        font-size: 1rem;
+        padding: 5px;
+        width: 16rem;
+    }
+    .links{
+        top: 65%;
+    }
+   .rights{
+   margin-top: 12rem;
+   }
+   .information{
+    height: 60rem;
+   }
+   .boxS{
+    width: 16rem;
+    height: 30rem;
+    padding: 5px;
+   }
+   #box31{
+    padding: 5px;
+   }
+   .machene img{
+    width: 16rem;
+   }
+   .facility_dialysisi h2{
+    white-space: nowrap;
+   }
+   .images img{
+    width: 17rem;
+    border: 1px solid darkslategrey;
+   }
+   .search{
+    text-align: center;
+}
+.search input{
+    width: 15rem;
+}
+
+.doctors_info{
+    width: 17rem;
+}
+.doctors_info img{
+    width: 16rem;
+}
+.form_container img{
+    width: 15rem;
+    margin-top: 1rem;
+}
+
+ input,textarea{
+    width: 15rem;
+}
+}
+@media(min-width:350px)and (max-width:378px){
+   .links{
+    top: 62%;
+   }
+   .information{
+    height: 58rem;
+   }
+}
+@media(min-width:380px)and (max-width:400px){
+ .information{
+    height: 65rem;
+ }
+ .links{
+    top: 55.5%;
+ }
+
+}
+@media(min-width:401px)and (max-width:500px){
+.information{
+    height: 69rem;
+}
+.links{
+    top:52% ;
+}
+}
+@media(min-width:900px)and (max-width:912px){
+ .information{
+    height: 70rem;
+ }
+ .links{
+    top: 25%;
+ }
+}
+@media(min-width:1250px)and (max-width:1280px){
+.information{
+    height: 40rem;
+}
+.links{
+    top: 45%;
+}
+}
