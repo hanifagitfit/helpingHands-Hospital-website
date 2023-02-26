@@ -17,7 +17,7 @@ const Docters = () => {
       <div className='docters_wrapper'>
         <div className="search">
           <div className="find">
-            <label>Search for Docter:</label>
+            <label>Search for Doctor:</label>
             <input type="text"  onChange={(e)=> filterDocter(e)} placeholder='search by specialization' />
           </div>
           <div className="title">

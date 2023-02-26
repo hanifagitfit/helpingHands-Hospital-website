@@ -9,8 +9,8 @@ const Navbar = () => {
         <ul className={mobile ? 'nav_link_mobile' : 'nav_links'} onClick={()=>setMobile(false)}>
            
             <li ><NavLink  to="/">Home</NavLink></li>
-            <li><NavLink to="/services">Services</NavLink></li>
             <li><NavLink to="/facilities">Facility</NavLink></li>
+            <li><NavLink to="/services">Services</NavLink></li>
             <li><NavLink to="/docters">Find Doctors</NavLink></li>
             <li><NavLink to="/testimonials">Testimonials</NavLink></li>
             <li><NavLink to="/contact">Contact Us</NavLink></li>
