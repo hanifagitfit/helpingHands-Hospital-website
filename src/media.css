@@ -34,6 +34,9 @@
         overflow: hidden;
         width: 100%;
     }
+    .para{
+        width: 17rem;
+    }
 }
 
 
@@ -134,9 +137,20 @@
         height: 80vh;
     }
 }
-/* @media(min-width:689px) and (max-width:767px){
-    
-} */
+@media(min-width:618px) and (max-width:687px){
+    .box{
+        height: 30rem;
+    }
+    #nurse{
+        font-size: 1.2rem;
+    }
+}
+@media(max-width:617px){
+    .boxes{
+        flex-direction: column;
+    }
+}
+
 @media(max-width:688px){
     
     .main{
@@ -149,13 +163,11 @@
         font-size: 1.5rem;
         text-align: center;
     }
-    .boxes{
-        flex-direction: column;
-    }
+    
     .box{
         width: 20rem;
         margin: 1rem 0;
-        height: 25rem;
+        /* height: 25rem; */
     }
     .Kindness{
         overflow: hidden;
@@ -277,7 +289,7 @@
 }
 
 }
-@media(max-width:300px){
+@media(max-width:349px){
     .head{
         font-size: 1.1rem;
         width: 15rem;

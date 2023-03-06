@@ -20,7 +20,7 @@ const Service = () => {
                     <p>Occupational therapy is a key component to a successful treatment plan. focus on activities designed to help patients develop skills.</p>
                 </div>
                 <div className="box" id='box3'>
-                    <h4>24 Hour Nursing Care</h4>
+                    <h4 id='nurse'>24 Hour Nursing Care</h4>
                     <img src={nurse} alt="doc" />
                     <p>Our skilled nursing services are available to our patients around the clock, and all delivered by our compassionate team of nurses.</p>
                 </div>
