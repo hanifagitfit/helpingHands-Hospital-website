@@ -42,18 +42,23 @@
 
 
 
-@media(min-width:768px)and (max-width:962px){
+@media(min-width:688px)and (max-width:962px){
     .image img{
         position: absolute;
         top: 25%;
         min-height: 35rem;
     }
 }
-@media(min-width:768px) and (max-width:911px){
+@media(max-width:769px){
+    .boxS{
+        height: 30rem;
+    }
+}
+@media(min-width:700px) and (max-width:911px){
     
     .boxS{
         width: 60vw;
-        height: 22rem;
+        height: 24rem;
     }
     #box31{
         width: 60vw;
@@ -105,6 +110,7 @@
 }
 .information{
     height: 28rem;
+    overflow: hidden;
 }
 .links{
     top: 55%;
@@ -145,10 +151,29 @@
         font-size: 1.2rem;
     }
 }
+@media(min-width:515px) and (max-width:617px){
+    .box{
+        min-width: 30rem;
+        max-height: 17rem;
+    }
+}
+
 @media(max-width:617px){
     .boxes{
         flex-direction: column;
     }
+}
+@media(min-width:350px) and (max-width:440px){
+.head{
+    max-width: 20rem;
+    font-size: 1rem;
+    white-space: nowrap;
+  
+}
+.box{
+    width: 20rem;
+    height: 22rem;
+}
 }
 
 @media(max-width:688px){
@@ -156,6 +181,8 @@
     .main{
         overflow: hidden;
         height: 30rem;
+        margin: 6rem 1rem 0 1rem ;
+       
     }
     .head{
         width: 25rem;
@@ -165,9 +192,9 @@
     }
     
     .box{
-        width: 20rem;
+       
         margin: 1rem 0;
-        /* height: 25rem; */
+       
     }
     .Kindness{
         overflow: hidden;
@@ -200,7 +227,7 @@
         
     }
     .rights{
-        margin-top: 8rem;
+        margin-top: 10rem;
     }
     .sampark{
         align-items: center;
@@ -213,9 +240,9 @@
         margin: 2rem 0;
     }
     .image img{
-        width: 95%;
+        /* width: 95%;
         height: 50%;
-        margin: 1.5rem 0;
+        margin: 1.5rem 0; */
         display: none;
        
     }
@@ -315,7 +342,7 @@
         top: 65%;
     }
    .rights{
-   margin-top: 12rem;
+   margin-top: 14rem;
    }
    .information{
     height: 60rem;
@@ -371,6 +398,7 @@
 @media(min-width:380px)and (max-width:400px){
  .information{
     height: 65rem;
+    
  }
  .links{
     top: 55.5%;
@@ -380,6 +408,7 @@
 @media(min-width:401px)and (max-width:560px){
 .information{
     height: 69rem;
+    
 }
 .links{
     top:52% ;
@@ -388,6 +417,7 @@
 @media(min-width:900px)and (max-width:912px){
  .information{
     height: 70rem;
+   
  }
  .links{
     top: 25%;
@@ -397,6 +427,7 @@
 .information{
     height: 40rem;
 }
+   
 .links{
     top: 45%;
 }

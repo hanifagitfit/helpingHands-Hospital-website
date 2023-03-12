@@ -49,15 +49,12 @@ li>a:hover {
 }
 
 .main {
-  background: url('./images/small.jpg')no-repeat center center/cover;
-  height: 100vh;
-  /* background: linear-gradient(rgba(85, 83, 83,0.6),rgba(113, 113, 124,0.1)); */
-}
-
-.main {
   display: flex;
   align-items: center;
   justify-content: center;
+  background: url('./images/small.jpg')no-repeat center center/cover;
+  height: 100vh;
+ 
 }
 
 .head {
@@ -514,10 +511,10 @@ li>a:hover {
   width: 15rem;
   /* border: 1px solid black; */
   padding: 1.5rem 1rem;
-  height: 20rem;
+  height: 21rem;
   text-align: center;
   background-color: rgba(118, 118, 238,0.2);
-  box-shadow: 1px 2px 3px black;
+  box-shadow: 5px 4px 7px black;
 }
 
 .content p{
